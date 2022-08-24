@@ -18,12 +18,11 @@ from torch.nn.modules.utils import _pair
 from scipy import ndimage
 from ..libs.GatedSpatialConv import GatedSpatialConv2d as GCL
 from ..libs.Resnet import BasicBlock as Block
-from .RCAB import CALayer
+from ..libs.RCAB import CALayer
 
-from .unet_parts import DoubleConv
 import cv2
-from . import vit_seg_configs as configs
-from .ResNet50v2 import ResNetV2
+from ..config import vit_seg_configs as configs
+from ..ResNet50v2 import ResNetV2
 from .sync_batchnorm.batchnorm import SynchronizedBatchNorm2d
 from .vit import ViT
 import torch.nn.functional as F
@@ -151,7 +150,7 @@ class SegmentationHead(nn.Sequential):
         super().__init__(conv2d, upsampling)
 
 
-class VisionTransformer(nn.Module):
+class GBETransNet(nn.Module):
     def __init__(self, config, img_size=512, num_classes=1, zero_head=False, vis=False):
         super(VisionTransformer, self).__init__()
         self.num_classes = num_classes
