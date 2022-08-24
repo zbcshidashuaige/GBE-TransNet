@@ -15,14 +15,14 @@ from time import time
 from shutil import copyfile, move
 from models.networks.GBETransNet import get_GBETransNet
 from framework2 import MyFrame
-from loss.dice_bce_loss import Dice_bce_loss
-from loss.diceloss import DiceLoss
+from loss2.dice_bce_loss import Dice_bce_loss
+from loss2.diceloss import DiceLoss
 from metrics.iou import iou_pytorch
 from evals import eval_func, eval_new
 from data import ImageFolder
 from inference2 import TTAFrame
 from tensorboardX import SummaryWriter
-from loss.DetailLoss import DetailAggregateLoss
+from loss2.DetailLoss import DetailAggregateLoss
 
 
 if torch.cuda.is_available():
