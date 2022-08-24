@@ -19,3 +19,6 @@ and you can change the batchsize, lr, name, dir, and epoch in config.txt
 
 ### Another  step:
 `python train_one.py`  (one branch)
+
+
+## To be Updated...
