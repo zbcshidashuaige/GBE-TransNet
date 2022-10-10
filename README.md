@@ -1,7 +1,7 @@
 # GBE-TransNet
 
 Welcome to watch my another network SSU-Net. This network is continue to being optimized.
-要不看看SSUNet，效果更好也更快
+要不看看SSUNet，效果也不错
 
 This paper is being submitted for Remote Sensing named "GBE-TransNet: A Muti-branch Network with Gated Boundary Enhancing Learning and Transformer for Semantic Segmentation of Remote Sensing Images". Any questions could be answered if we can. The E-mail is 1091007069@qq.com.
 
