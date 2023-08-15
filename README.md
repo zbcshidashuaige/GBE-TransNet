@@ -1,8 +1,9 @@
+
 # GBE-TransNet
 
 Welcome to watch my another network SSU-Net. This network is continue to being optimized.
 
-This paper is being submitted for "IEEE Geoscience and Remote Sensing Letters" entitled "Gated Boundary Enhancing Networks for Semantic Segmentation of Remote Sensing Images". Any questions could be answered if we can. The E-mail is 1091007069@qq.com.
+This paper was submitted for "IEEE Geoscience and Remote Sensing Letters" entitled "Gated Boundary Enhancing Networks for Semantic Segmentation of Remote Sensing Images". Any questions could be answered if we can. The E-mail is 1091007069@qq.com.
 
 For the network, it has two branch (regular branch and boundary branch). In regular branch, FCN and Transformer are combined. In boundary branch, the lost boundary information should be recovered.
 
